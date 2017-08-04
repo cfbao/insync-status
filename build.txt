@@ -1,0 +1,7 @@
+Use Visual Studio 2017 to build both x86 and x64 dll in /tray-icon-rect
+
+Put the insyncstatus.py, mask.png and the .dll files together in a folder.
+
+Use Python 3.5+ (with Pillow installed) to run the script
+or
+use PyInstaller to build a Windows executable, specify "--add-binary mask.png;." in PyInstaller command
